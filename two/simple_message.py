@@ -1,0 +1,2 @@
+message = "start"
+print(message)
