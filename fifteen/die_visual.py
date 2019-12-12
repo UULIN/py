@@ -33,4 +33,3 @@ hist.y_title = "Frequency of Result"
 hist.add('D6', frequencies)
 hist.render_to_file('./data/die_visual.svg')
 
-print(frequencies)
