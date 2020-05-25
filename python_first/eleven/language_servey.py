@@ -1,4 +1,4 @@
-from python_new.eleven import AnonymousSurvey
+from python_first.eleven import AnonymousSurvey
 
 """定义一个问题， 并创建一个表示调查的AnonymousSurvey"""
 

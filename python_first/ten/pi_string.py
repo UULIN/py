@@ -1,4 +1,4 @@
-filename = '/python_new/ten/source/pi_million_dights.txt'
+filename = '/python_first/ten/source/pi_million_dights.txt'
 with open(filename) as file_object:
     lines = file_object.readlines()
     pi_string = ''

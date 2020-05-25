@@ -1,5 +1,5 @@
 # import nine.dog as dog
-from python_new.nine.dog import *
+from python_first.nine.dog import *
 new_dog = Dog("luming", 17)
 
 print("my dog name is : " + new_dog.name)

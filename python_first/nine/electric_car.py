@@ -1,4 +1,4 @@
-from python_new.nine import Car
+from python_first.nine import Car
 class ElectricVar(Car):
     """电动汽车的独特之处
         初始化父类的属性，再初始化电动汽车特有的属性

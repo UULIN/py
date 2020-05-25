@@ -1,4 +1,4 @@
-from python_new.eleven import Employee
+from python_first.eleven import Employee
 
 my_employee = Employee('xu', 'yulin')
 

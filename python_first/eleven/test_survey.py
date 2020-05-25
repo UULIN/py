@@ -1,5 +1,5 @@
 import unittest
-from python_new.eleven import AnonymousSurvey
+from python_first.eleven import AnonymousSurvey
 
 
 class TestAnonymousSurvey(unittest.TestCase):

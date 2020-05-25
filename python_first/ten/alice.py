@@ -1,4 +1,4 @@
-from python_new.ten import count_words
+from python_first.ten import count_words
 
 filenames = ['alice', 'pi_digits', 'programming', 'pi']
 

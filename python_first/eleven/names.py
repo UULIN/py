@@ -1,4 +1,4 @@
-from python_new.eleven import get_formatted_name
+from python_first.eleven import get_formatted_name
 
 print("input 'q' quit")
 

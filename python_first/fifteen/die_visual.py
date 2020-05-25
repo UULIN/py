@@ -1,4 +1,4 @@
-from python_new.fifteen import Die
+from python_first.fifteen import Die
 import pygal
 """投骰子"""
 # 创建2个骰子

@@ -1,5 +1,5 @@
 import unittest
-from python_new.eleven import Employee
+from python_first.eleven import Employee
 
 
 class Test_employee(unittest.TestCase):

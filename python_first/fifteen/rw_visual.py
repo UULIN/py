@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from python_new.fifteen import RandomWalk
+from python_first.fifteen import RandomWalk
 
 # 只要程序处于活动状态，就不断的模拟随机漫步
 
