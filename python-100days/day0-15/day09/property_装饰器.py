@@ -40,5 +40,5 @@ def main():
     person._gender = '男'
     person._is_gay = True
 
-
+ 
 main()
