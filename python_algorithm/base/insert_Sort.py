@@ -5,8 +5,8 @@
 """
 sort_list = [30, 44, 23, 656, 23, 78, 96, 212, 777]
 for i in range(1, len(sort_list)):
-    j = i - 1
     temp = sort_list[i]
+    j = i - 1
 
     while j >= 0 and sort_list[j] > temp:
         sort_list[j + 1] = sort_list[j]
