@@ -1,4 +1,5 @@
 """
+<<<<<<< Updated upstream
 1.先确定一个基准数，然后按照比较规则，如本例是升序排列，则将比基数大的放到右边，比基数小的放到左边。
 2.接下来各边重复步骤1，直到全部排序完毕。
 """
@@ -33,5 +34,4 @@ def quick_sort(alist, start, end):
 
 if __name__ == '__main__':
     print(quick_sort(quick_list, 0, len(quick_list)-1))
-
 
