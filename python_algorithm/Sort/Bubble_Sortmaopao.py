@@ -12,7 +12,7 @@ arry_list = [55, 30, 60, 20, 1, 50, 51]
 for i in range(len(arry_list) -1 ):
     for j in range(len(arry_list)-i-1):
         print(j)
-        if arry_list[i] > arry_list[j]:
-            arry_list[i], arry_list[j] = arry_list[j], arry_list[i]
+        if arry_list[j + 1] > arry_list[j]:
+            arry_list[j], arry_list[j + 1] = arry_list[j + 1], arry_list[j]
 
 print(arry_list)

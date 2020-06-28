@@ -31,6 +31,7 @@ def quick_sort(list, start, end):
     quick_sort(list, low + 1, end)
     return list
 
+
 if __name__ == '__main__':
     quick_list = [11,333,45453,1231,12312,566,1,2335,78,2]
     print(quick_sort(quick_list,0 , len(quick_list) -1))
