@@ -100,7 +100,8 @@ class BST:
                     tmp = tmp.right
                     return 1, tmp #返回右子树中最小的数据(最左边的数据)
         elif data < node.data:# 如果data小于当前节点的数据，进入左子树
-            if minn.data > node.data # 如果当前额数据已经比存储在min中的数据要小，更新minn
+            if minn.data > node.data:
+                # 如果当前额数据已经比存储在min中的数据要小，更新minn
                 minn = node
                 return self.getlast(node.left, data, minn)
         else: #如果data大于当前节点的数据，进入右子树
