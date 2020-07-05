@@ -108,3 +108,30 @@ class BST:
             return self.getlast(node.right, data, minn)
 
 
+    # 二叉搜索树删除节点
+    def delete(self, root, data):
+        exist, n, p = self.search(root, root, data)
+        if not exist:
+            # 要删除的数据不存在
+            return '数据不存在'
+        else:
+            if n.left is None: # 要删除的节点左子树为空
+                if n == p.left: # 如果N是左孩子，则把N的左孩子赋值为P的左孩子
+                    p.left = n.left
+                if n == p.right:
+                    p.right = n.left # 如果N是右孩子，则把P的右孩子赋值为N的左孩子
+                del n # 删除N
+            else:# 左右子树均不为空
+                tmp = n.right
+                if tmp.left is None:# 如果N的右孩子没有左子树，则N的右孩子就是N的后继
+                    n.data = tmp.data
+                    n.right = tmp.right
+                    del tmp
+                else:
+                    next = tmp.left
+                    while next.left is not None:# 在右子树中查找N的后继
+                        tmp = next
+                        next = next.left
+                    n.data = next.data
+                    tmp.left = next.right
+                    del next # 删除next
