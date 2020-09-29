@@ -26,9 +26,9 @@ def quick_sort(list, start, end):
 
     list[low] = mid
     # 左边的序列继续进行快速排序
-    quick_sort(list, start, low - 1)
+    quick_sort(list, start, end - 1)
     # 右边
-    quick_sort(list, low + 1, end)
+    quick_sort(list, start + 1, end)
     return list
 
 

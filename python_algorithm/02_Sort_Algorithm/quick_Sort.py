@@ -26,9 +26,9 @@ def quick_sort(alist, start, end):
     # 退出循环后low与high重合，此时所指位置为基准元素的正确位置，左边的元素都比基准小，右边的元素都比基准大
     alist[low] = mid
     # 对基准左边的子序列进行快速排序
-    quick_sort(alist,start,low - 1)
+    quick_sort(alist,start,end - 1)
     # 对基准右边的子序列进行快速排序
-    quick_sort(alist,low +1, end)
+    quick_sort(alist,start +1, end)
     return alist
 
 
