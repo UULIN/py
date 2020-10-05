@@ -1,9 +1,9 @@
 import pygame
 from pygame.sprite import Group
 
-from python_first.alien_invasion.settings import Settings
-from python_first.alien_invasion.ship import Ship
-import python_first.alien_invasion.game_functions as gf
+from alien_invasion.settings import Settings
+from alien_invasion.ship import Ship
+import alien_invasion.game_functions as gf
 
 
 def run_game():

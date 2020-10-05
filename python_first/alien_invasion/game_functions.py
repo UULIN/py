@@ -2,8 +2,8 @@ import sys
 import pygame
 
 
-from python_first.alien_invasion.bullet import Bullet
-from python_first.alien_invasion.alien import Alien
+from alien_invasion.bullet import Bullet
+from alien_invasion.alien import Alien
 
 
 def check_keydown_events(event, ai_settings, screen, ship, bullets):
